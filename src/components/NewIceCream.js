@@ -8,7 +8,7 @@ function NewIceCream(props){
 function handleNewIceCreamSubmission(event) {
     event.preventDefault();
     props.onNewIceCreamCreation({
-        terrain: event.target.flavors.value,
+        flavors: event.target.flavors.value,
         price: event.target.price.value,
         quantity: event.target.quantity.value,
         id: v4()

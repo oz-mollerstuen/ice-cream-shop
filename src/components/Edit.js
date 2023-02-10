@@ -7,7 +7,7 @@ function EditIceCream (props) {
 
 function handleEditIceSubmission(event) {
     event.preventDefault();
-    props.onEditIce({
+    props.onEditIceCream({
         flavors: event.target.flavors.value, 
         price: event.target.price.value, 
         quantity: event.target.quantity.value, 

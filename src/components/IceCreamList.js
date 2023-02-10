@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import IceCream from "./IceCream";
+// npm run build
+
 
 function IceCreamList(props) {
     return (
         <React.Fragment>
-            {props.iceCreamList.map((board) => 
+            {props.iceCreamList.map((IceCream) => 
             <IceCream
             whenIceCreamClicked={props.onIceCreamSelection}
             flavors = {IceCream.flavors}

@@ -13,7 +13,7 @@ class SiteControl extends React.Component {
             mainIceCreamList: [],
             formVisibleOnPage: false,
             editing: false,
-            selectedBoard: null
+            selectedIceCream: null
     };
 }
 

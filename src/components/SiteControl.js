@@ -42,12 +42,12 @@ handleEditClick = () => {
 }
 
 handleChangingSelectedIceCream = (id) => {
-    const selectedIceCream = this.state.mainIceCreamList.filter(iceCream => iceCream.id === id)[0];
+    const selectedIceCream = this.state.mainIceCreamList.filter(IceCream => IceCream.id === id)[0];
     this.setState({selectedIceCream: selectedIceCream});
 }
 
 handleDeletingIceCream = (id) => {
-    const newMainIceCreamList = this.state.mainIceCreamList.filter(iceCream => iceCream.id !== id);
+    const newMainIceCreamList = this.state.mainIceCreamList.filter(IceCream => IceCream.id !== id);
     this.setState({
     mainIceCreamList: newMainIceCreamList,
     selectedIceCream: null
@@ -55,24 +55,24 @@ handleDeletingIceCream = (id) => {
 }
 
 handleSellingIceCream = (id) => {
-    let iceCreamToEdit = this.state.mainIceCreamList.filter(iceCream => iceCream.id === id)[0];
-    if(iceCreamToEdit.quantity === 0){
-        iceCreamToEdit.quantity = 0;
+    let IceCreamToEdit = this.state.mainIceCreamList.filter(IceCream => IceCream.id === id)[0];
+    if(IceCreamToEdit.quantity === 0){
+        IceCreamToEdit.quantity = 0;
     } else {
-        iceCreamToEdit.quantity--;
+        IceCreamToEdit.quantity--;
         const editedMainIceCreamList = this.state.mainIceCreamList
-            .filter(iceCream => iceCream.id !== id)
-            .concat(iceCreamToEdit);
+            .filter(IceCream => IceCream.id !== id)
+            .concat(IceCreamToEdit);
         this.setState({
             mainIceCreamList: editedMainIceCreamList.sort((a, b) => a.flavors.localeCompare(b.name))
         });        
     }
 }
 
-handleEditingIceCreamInList = (iceCreamToEdit) => {
+handleEditingIceCreamInList = (IceCreamToEdit) => {
     const editedMainIceCreamList = this.state.mainIceCreamList
-    .filter(iceCream => iceCream.id !== this.state.selectedIceCream.id)
-    .concat(iceCreamToEdit);
+    .filter(IceCream => IceCream.id !== this.state.selectedIceCream.id)
+    .concat(IceCreamToEdit);
     this.setState({
         mainIceCreamList: editedMainIceCreamList,
         editing: false,
@@ -87,13 +87,13 @@ render(){
     if (this.state.editing ) {      
         currentlyVisibleState = 
     <EditIceCream
-        iceCream = {this.state.selectedIceCream} 
+        IceCream = {this.state.selectedIceCream} 
         onEditIceCream = {this.handleEditingIceCreamInList}/>
         buttonText = "Return to IceCream List";
     } else if (this.state.selectedIceCream != null) {
         currentlyVisibleState = 
     <Details 
-        iceCream = {this.state.selectedIceCream} 
+        IceCream = {this.state.selectedIceCream} 
         onClickingDelete = {this.handleDeletingIceCream} 
         onClickingEdit = {this.handleEditClick} 
         onClickingSell = {this.handleSellingIceCream}/>
@@ -106,7 +106,7 @@ render(){
     } else {
         currentlyVisibleState = 
     <IceCreamList
-        iceCreamList = {this.state.mainIceCreamList} 
+        IceCreamList = {this.state.mainIceCreamList} 
         onIceCreamSelection = {this.handleChangingSelectedIceCream} />
         buttonText= 'Add IceCream';
     }

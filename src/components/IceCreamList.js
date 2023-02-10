@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 function IceCreamList(props) {
     return (
         <React.Fragment>
-            {props.iceCreamList.map((IceCream) => 
+            {props.IceCreamList.map((IceCream) => 
             <IceCream
             whenIceCreamClicked={props.onIceCreamSelection}
             flavors = {IceCream.flavors}
@@ -19,7 +19,7 @@ function IceCreamList(props) {
 }
 
 IceCreamList.propTypes = {
-    iceCreamList: PropTypes.array,
+    IceCreamList: PropTypes.array,
     onIceCreamSelection: PropTypes.func
 };
 

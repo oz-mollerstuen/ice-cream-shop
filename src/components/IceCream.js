@@ -14,7 +14,7 @@ function IceCream(props){
 
 IceCream.propTypes = {
     flavors: PropTypes.string.isRequired,
-    iceCream: PropTypes.string.isRequired,
+    IceCream: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     quantity: PropTypes.number.isRequired,
     id: PropTypes.string,

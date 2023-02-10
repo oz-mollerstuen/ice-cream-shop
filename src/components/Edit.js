@@ -3,7 +3,7 @@ import IceForm from "./IceForm";
 import PropTypes from "prop-types";
 
 function EditIceCream (props) {
-    const { iceCream } = props;
+    const { IceCream } = props;
 
 function handleEditIceSubmission(event) {
     event.preventDefault();
@@ -11,7 +11,7 @@ function handleEditIceSubmission(event) {
         flavors: event.target.flavors.value, 
         price: event.target.price.value, 
         quantity: event.target.quantity.value, 
-        id: iceCream.id
+        id: IceCream.id
 })}
 
 return (

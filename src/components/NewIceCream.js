@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { v4 } from "uuid";
 import IceForm from "./IceForm";
 
+
 function NewIceCream(props){
 
 function handleNewIceCreamSubmission(event) {
@@ -19,13 +20,14 @@ function handleNewIceCreamSubmission(event) {
         <React.Fragment>
             <IceForm
             formSubmissionHandler={handleNewIceCreamSubmission}
-            buttonText="Add Ice Cream" />
+            buttonText="Add IceCream" />
         </React.Fragment>
     );
 }
 
 NewIceCream.propTypes = {
-    onNewIceCream: PropTypes.func
+    onNewIceCream: PropTypes.func,
+    onNewIceCreamCreation: PropTypes.func
 };
 
 export default NewIceCream;

@@ -25,7 +25,7 @@ function Details(props) {
 }
 
 Details.propTypes = {
-  iceCream: PropTypes.object,
+  IceCream: PropTypes.object,
   onClickingDelete: PropTypes.func,
   onClickingEdit: PropTypes.func,
   onClickingSell: PropTypes.func,

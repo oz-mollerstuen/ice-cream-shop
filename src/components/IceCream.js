@@ -12,7 +12,7 @@ function IceCream(props){
     )
 }
 
-Board.propTypes = {
+IceCream.propTypes = {
     flavors: PropTypes.string.isRequired,
     iceCream: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,

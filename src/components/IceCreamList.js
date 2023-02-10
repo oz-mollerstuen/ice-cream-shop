@@ -6,7 +6,7 @@ function IceCreamList(props) {
     return (
         <React.Fragment>
             {props.iceCreamList.map((board) => 
-            <Board
+            <IceCream
             whenIceCreamClicked={props.onIceCreamSelection}
             flavors = {IceCream.flavors}
             price = {IceCream.price}

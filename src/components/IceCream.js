@@ -4,10 +4,12 @@ import PropTypes from "prop-types";
 function IceCream(props){
     return (
         <React.Fragment>
+            <center>
             <div onClick = {() => props.whenIceCreamClicked(props.id)}>
                 <h3>{props.flavors}  - ${props.price}</h3>
                 <hr/>
             </div>
+            </center>
         </React.Fragment>
     )
 }

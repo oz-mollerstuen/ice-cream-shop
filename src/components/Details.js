@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import IceCream from "./IceCream";
-
+// import IceCream from "./IceCream";
+// 
 function Details(props) {
   const { IceCream, onClickingDelete, onClickingSell } = props;
   return (
     <React.Fragment>
+      <center>
       <h1>IceCream!</h1>
       <h3>
         {IceCream.flavors} - Price: ${IceCream.price}
@@ -20,6 +21,7 @@ function Details(props) {
       <br />
       <button onClick={() => onClickingSell(IceCream.id)}>Sell</button>
       <hr />
+      </center>
     </React.Fragment>
   );
 }

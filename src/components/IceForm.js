@@ -7,7 +7,7 @@ function IceForm(props) {
             <form onSubmit={props.formSubmissionHandler}>
                 <input
                     type='text'
-                    name='Flavors'
+                    name='flavors'
                     placeholder='IceCream Flavors' />
                 <input
                     type='number'

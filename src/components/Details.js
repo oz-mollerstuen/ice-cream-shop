@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import IceCream from "./IceCream";
+import IceCream from "./IceCream";
 
 function Details(props) {
   const { IceCream, onClickingDelete, onClickingSell } = props;

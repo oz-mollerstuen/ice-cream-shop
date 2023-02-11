@@ -4,8 +4,6 @@
 
 #### _React app that allows user to create a list of ice cream._
 
-![Diagram of layout](./src/img/empeys-boards.png?raw=true"Diagram")
-
 ## Technologies Used
 
 * _JavaScript_

@@ -6,6 +6,7 @@
 
 
 .App-header {
+ 
   background-color: #1b3d81;
   min-height: 100vh;
   display: flex;
@@ -16,7 +17,10 @@
   color: white;
 }
 body {
+  margin: 0;
 
+text-align: center;
+color: antiquewhite;
 }
 .App-link {
   color: #61dafb;

@@ -1,11 +1,39 @@
+# _Ice Ice Mollerstuen_
+
+#### By _**Lucas Mollerstuen**_
+
+#### _React app that allows user to create a list of ice cream._
+
+![Diagram of layout](./src/img/empeys-boards.png?raw=true"Diagram")
+
+## Technologies Used
+
+* _JavaScript_
+*  _React_
+*  _CSS_
+* _Webpack_
+
+## Description
+This is a React app to keep track of ice cream being sold. With full CRUD functionality.
 
 
-![image](https://user-images.githubusercontent.com/115112679/218145699-a312860d-5aed-4623-8294-33ec75e9c057.png)
+![titled Diagram drawio](https://user-images.githubusercontent.com/115112679/218222726-df73d885-f1f8-48fa-9341-983ebc281a19.png)
+
+## Setup:
+* Clone repo down from ```https://github.com/oz-mollerstuen/ice-cream-shop```
+* Run: ```npm run start```
+
+
+
+
 
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Known Bugs
+* None known. If you find a bug in our code please leave a message at [mollerstuen.works@gmail.com]
 
 ## Available Scripts
 
@@ -34,42 +62,18 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+_Copyright (c) 2023 Lucas Mollerstuen_
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+_Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+_The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software._
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+_THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Thank you for your time!
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![My Remote Image](https://user-images.githubusercontent.com/115112679/213828887-8b49e9ab-f7fd-4d7a-a7fa-9fe63fabc363.png)

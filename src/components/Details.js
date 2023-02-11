@@ -14,7 +14,8 @@ function Details(props) {
       <p>
         <em>Quantity: {IceCream.quantity}</em>
       </p>
-      <button onClick={props.onClickingEdit}>Update:</button> <br />
+      <hr />
+      <button color="black" onClick={props.onClickingEdit}>Update:</button> <br />
       <button onClick={() => onClickingDelete(IceCream.id)}>
         Delete IceCream
       </button>

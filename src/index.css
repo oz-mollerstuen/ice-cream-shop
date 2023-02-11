@@ -33,8 +33,12 @@ h3 {
 }
 
 body {
-  
-  text-align: center;
-  background-image: url("../src/img/icecream astro.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.727), rgba(0, 0, 0, 0.527)), url("../src/img/icecream astro.png");
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+
 }
 
